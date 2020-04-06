@@ -3,6 +3,11 @@ body{
     font-family: "Nunito", sans-serif;
 }
 
+p{
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
 /* Didnt Work */
 .changeBackGround{
     background-color: #4286fc;
@@ -22,9 +27,17 @@ body{
 }
 
 .content{
-    margin-top: 200px;
-    margin-bottom: 200px; 
+    margin-top: 300px;
+    margin-bottom: 300px; 
 }
+
+@media (max-width: 480px){
+  .content_mobile{
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}  
+}
+
 
 #mainNavbar{
     font-size: 1.5rem;
